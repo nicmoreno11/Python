@@ -1,5 +1,6 @@
 
 class Persona: #Se crea una clase con el nombre personas
+
     def __init__(self,nombre,documento): #Constructor que tiene dos datos 
         self.__nombre=nombre
         self.__documento=documento #Tiene una herencia que hace parte de la clase padre
@@ -27,14 +28,13 @@ class Aprendiz(Persona): #Se crea la subclase Aprendiz
         self.__documento=documento
     def getFicha(self):
         return self.__ficha
-    
+
     def getdocumento(self):
         return self.__documento
-    
+
     def getNombre(self):
         return self.__nombre
-    
-    
+
 def all(self):
         print(self.getNombre())
         print(self.getFicha())
